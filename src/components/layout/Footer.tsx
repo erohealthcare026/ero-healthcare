@@ -50,12 +50,15 @@ export function Footer() {
                 />
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-base font-black tracking-widest text-white uppercase leading-none">
-                  ERO Healthcare
+                <span className="text-base font-black tracking-tight text-white leading-none">
+                  ERO <span className="bg-gradient-to-r from-[#0c5597] to-[#4bbac3] bg-clip-text text-transparent">HEALTHCARE</span>
                 </span>
-                <span className="text-[9px] font-bold tracking-wider text-slate-400 uppercase mt-1 leading-none">
-                  Innovation Private Limited
-                </span>
+                <div className="flex items-center space-x-2 mt-1">
+                  <div className="h-0.5 w-3 bg-[#4bbac3] rounded-full" />
+                  <span className="text-[8px] font-bold tracking-[0.25em] text-slate-400 uppercase leading-none">
+                    Innovation Private Limited
+                  </span>
+                </div>
               </div>
             </div>
 

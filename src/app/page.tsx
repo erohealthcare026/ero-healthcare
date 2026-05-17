@@ -48,7 +48,7 @@ export default function Home() {
       <Navbar showTopBanner={true} />
       <main className="bg-white overflow-hidden">
         {/* Redesigned Premium Academy-Style Home Banner */}
-        <section className="relative pt-32 pb-24 lg:py-32 bg-gradient-to-br from-[#09152b]/15 via-[#0c5597]/15 to-[#4bbac3]/20 overflow-hidden border-b border-slate-100">
+        <section className="relative pt-32 pb-24 lg:py-32 bg-gradient-to-br from-[#09152b] via-[#0c5597] to-[#4bbac3] overflow-hidden border-b border-slate-100 text-white">
           {/* Decorative Background glowing elements */}
           <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#0c5597]/5 rounded-full blur-3xl pointer-events-none -z-10" />
           <div className="absolute top-1/4 right-0 w-[45rem] h-[45rem] bg-gradient-to-bl from-blue-50 via-transparent to-transparent rounded-full blur-[140px] pointer-events-none -z-10" />
@@ -66,7 +66,7 @@ export default function Home() {
                     initial={{ opacity: 0, x: -30 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.7 }}
-                    className="text-2xl md:text-3xl lg:text-3xl font-black text-navy leading-none tracking-tight uppercase"
+                    className="text-2xl md:text-3xl lg:text-3xl font-black text-white leading-none tracking-tight uppercase"
                   >
                     Code Today. <br />
                     <span className="text-[#0c5597] bg-gradient-to-r from-[#0c5597] to-[#4bbac3] bg-clip-text text-transparent">
@@ -80,7 +80,7 @@ export default function Home() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.6 }}
-                  className="text-sm text-slate-500 font-semibold leading-relaxed text-justify max-w-xl"
+                  className="text-sm text-slate-200 font-semibold leading-relaxed text-justify max-w-xl"
                 >
                   At ERO Healthcare Innovation is a premier provider of
                   technology-enabled Revenue Cycle Management (RCM) and
@@ -110,10 +110,10 @@ export default function Home() {
                       key={idx}
                       className="flex flex-col items-center text-center space-y-3 group"
                     >
-                      <div className="size-12 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-[#0c5597] group-hover:bg-[#0c5597] group-hover:text-white group-hover:border-transparent transition-all duration-300 shadow-sm">
+                      <div className="size-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white group-hover:bg-white group-hover:text-[#0c5597] transition-all duration-300 shadow-sm">
                         <item.icon className="size-5" />
                       </div>
-                      <span className="text-[10px] font-black uppercase tracking-wider text-slate-600 group-hover:text-navy transition-colors leading-tight">
+                      <span className="text-[10px] font-black uppercase tracking-wider text-white/80 group-hover:text-white transition-colors leading-tight">
                         {item.title}
                       </span>
                     </div>
@@ -128,9 +128,9 @@ export default function Home() {
                   className="flex flex-col sm:flex-row gap-4 pt-4"
                 >
                   <Link href="/specialties" className="w-full sm:w-auto">
-                    <Button className="w-full bg-[#0c5597] hover:bg-[#09152b] text-white font-black tracking-wider uppercase text-xs px-8 h-[52px] rounded-xl shadow-lg hover:shadow-[#0c5597]/20 hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center space-x-2 border border-transparent">
+                    <Button className="w-full bg-white hover:bg-slate-100 text-[#0c5597] font-black tracking-wider uppercase text-xs px-8 h-[52px] rounded-xl shadow-lg hover:shadow-white/20 hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center space-x-2 border border-transparent">
                       <span>Explore Careers</span>
-                      <div className="size-5 rounded-full bg-white flex items-center justify-center text-[#0c5597]">
+                      <div className="size-5 rounded-full bg-[#0c5597] flex items-center justify-center text-white">
                         <ChevronRight className="size-3.5" />
                       </div>
                     </Button>
@@ -140,7 +140,7 @@ export default function Home() {
                       const event = new CustomEvent("openEnrollModal");
                       window.dispatchEvent(event);
                     }}
-                    className="w-full sm:w-auto bg-white border border-[#0c5597]/20 hover:border-[#0c5597] text-[#0c5597] hover:bg-slate-50/50 font-black tracking-wider uppercase text-xs px-8 h-[52px] rounded-xl transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer shadow-sm"
+                    className="w-full sm:w-auto bg-transparent border border-white/30 hover:border-white text-white hover:bg-white/10 font-black tracking-wider uppercase text-xs px-8 h-[52px] rounded-xl transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer shadow-sm"
                   >
                     <Headphones className="size-4" />
                     <span>Talk to an Advisor</span>

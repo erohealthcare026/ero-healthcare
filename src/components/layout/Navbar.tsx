@@ -113,22 +113,22 @@ export function Navbar({ showTopBanner = false }: { showTopBanner?: boolean }) {
         <Container className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-4 group">
             <div className="relative">
-              <div className="absolute -inset-2 bg-primary/5 rounded-full scale-0 group-hover:scale-110 transition-transform duration-500" />
-              <div className="relative size-12 bg-white rounded-2xl shadow-[0_4px_25px_rgba(0,0,0,0.05)] border border-slate-100 flex items-center justify-center  group-hover:shadow-secondary/10 transition-all duration-500">
+              <div className="absolute -inset-3 bg-primary/5 rounded-full scale-0 group-hover:scale-110 transition-transform duration-500" />
+              <div className="relative size-16 bg-white rounded-2xl shadow-[0_4px_25px_rgba(0,0,0,0.05)] border border-slate-100 flex items-center justify-center group-hover:shadow-secondary/10 transition-all duration-500">
                 <img
                   src={LogoImg.src}
                   alt="ERO Health Logo"
-                  className="w-full h-full object-contain rounded-[0.5rem] p-1"
+                  className="w-full h-full object-contain rounded-[0.5rem] p-1.5"
                 />
               </div>
             </div>
             <div className="flex flex-col border-l-2 border-slate-100 pl-4 py-1">
-              <span className="text-xl font-black tracking-tighter text-navy leading-none">
-                ERO <span className="text-primary">HEALTHCARE</span>
+              <span className="text-2xl font-black tracking-tight text-navy leading-none">
+                ERO <span className="bg-gradient-to-r from-[#0c5597] to-[#4bbac3] bg-clip-text text-transparent">HEALTHCARE</span>
               </span>
-              <div className="flex items-center space-x-2 mt-1.5">
-                <div className="h-0.5 w-3 bg-accent rounded-full" />
-                <span className="text-[7.5px] font-bold tracking-[0.3em] text-slate-500 uppercase leading-none">
+              <div className="flex items-center space-x-2 mt-1">
+                <div className="h-0.5 w-4 bg-[#4bbac3] rounded-full" />
+                <span className="text-[8px] font-bold tracking-[0.25em] text-slate-400 uppercase leading-none">
                   Innovation Private Limited
                 </span>
               </div>
