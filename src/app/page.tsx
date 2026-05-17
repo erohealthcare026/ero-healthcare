@@ -48,12 +48,15 @@ export default function Home() {
       <Navbar showTopBanner={true} />
       <main className="bg-white overflow-hidden">
         {/* Redesigned Premium Academy-Style Home Banner */}
-        <section className="relative pt-32 pb-24 lg:py-32 bg-gradient-to-br from-slate-50 via-white to-blue-50/20 overflow-hidden border-b border-slate-100">
+        <section className="relative pt-32 pb-24 lg:py-32 bg-gradient-to-br from-[#09152b]/15 via-[#0c5597]/15 to-[#4bbac3]/20 overflow-hidden border-b border-slate-100">
           {/* Decorative Background glowing elements */}
           <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#0c5597]/5 rounded-full blur-3xl pointer-events-none -z-10" />
           <div className="absolute top-1/4 right-0 w-[45rem] h-[45rem] bg-gradient-to-bl from-blue-50 via-transparent to-transparent rounded-full blur-[140px] pointer-events-none -z-10" />
+          {/* App related light based gradient colors on sides */}
+          <div className="absolute -top-20 -left-20 w-[35rem] h-[35rem] bg-gradient-to-br from-[#0c5597]/10 to-[#4bbac3]/5 rounded-full blur-3xl pointer-events-none -z-10" />
+          <div className="absolute -bottom-20 -right-20 w-[35rem] h-[35rem] bg-gradient-to-tl from-[#4bbac3]/10 to-[#78bb30]/5 rounded-full blur-3xl pointer-events-none -z-10" />
 
-          <Container>
+          <Container className="relative z-10 min-[1920px]:max-w-[1600px]">
             <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
               {/* Left Column: Academy Narrative */}
               <div className="lg:col-span-6 space-y-8 text-left z-20 relative">
@@ -346,7 +349,7 @@ export default function Home() {
           <div className="absolute top-1/4 left-10 size-[30rem] bg-primary/[0.02] rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-1/4 right-10 size-[30rem] bg-secondary/[0.015] rounded-full blur-3xl pointer-events-none" />
 
-          <Container>
+          <Container className="min-[1920px]:max-w-[1600px]">
             <div className="w-full">
               {/* High-Fidelity Interactive Vision & Mission Cards */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
@@ -430,7 +433,7 @@ export default function Home() {
 
         {/* Specialized Pathways - High Visibility */}
         <section className="py-24 relative overflow-hidden bg-white">
-          <Container>
+          <Container className="min-[1920px]:max-w-[1600px]">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
               <div className="space-y-6">
                 <div className="flex items-center space-x-3">
@@ -500,7 +503,7 @@ export default function Home() {
 
         {/* Institutional Proof - Testimonials */}
         <section className="py-32 bg-white relative">
-          <Container>
+          <Container className="min-[1920px]:max-w-[1600px]">
             <div className="max-w-4xl mx-auto">
               <div className="text-center space-y-12">
                 <div className="flex justify-center space-x-2 text-primary">
@@ -530,7 +533,7 @@ export default function Home() {
 
         {/* Final Institutional CTA - Premium Redesign */}
         <section className="pb-32 relative">
-          <Container>
+          <Container className="min-[1920px]:max-w-[1600px]">
             <div className="relative rounded-3xl bg-[#020b1d] p-10 lg:p-16 overflow-hidden shadow-[0_40px_100px_rgba(0,0,0,0.2)] text-left">
               {/* Background Ornaments */}
               <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_30%,rgba(45,108,223,0.15),transparent)] pointer-events-none" />
