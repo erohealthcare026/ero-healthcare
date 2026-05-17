@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
     description: "Leading healthcare innovation institute providing expert Medical Coding, Medical Billing, and Professional Certification Courses.",
     url: "https://erohealthcare.com",
     ogImage: "https://erohealthcare.com/og-image.jpg",
-    keywords: ["medical coding training", "medical billing", "healthcare innovation", "ERO healthcare", "certification courses"],
+    keywords: ["medical coding training", "medical billing", "healthcare innovation", "ERO healthcare", "erohealthcare", "erohealthcareinnovation", "certification courses"],
     author: "ERO Healthcare",
     links: {
         twitter: "#",
