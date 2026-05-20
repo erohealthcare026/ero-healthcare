@@ -222,7 +222,7 @@ export function Contact() {
 
               {/* Card 4: Campus Headquarters */}
               <a
-                href="https://maps.google.com/?q=11.3424,77.7282"
+                href="https://maps.google.com/?q=11.3541746,77.7074001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/item relative flex items-center justify-between p-5 bg-white rounded-2xl shadow-[0_2px_10px_rgba(0,0,0,0.02)] hover:shadow-[0_15px_40px_rgba(9,21,43,0.08)] hover:-translate-y-1 transition-all duration-300 outline-none cursor-pointer overflow-hidden border border-slate-100"
