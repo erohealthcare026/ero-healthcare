@@ -46,7 +46,7 @@ const jsonLd = {
   "name": SITE_CONFIG.name,
   "description": SITE_CONFIG.description,
   "url": SITE_CONFIG.url,
-  "logo": `${SITE_CONFIG.url}/logo.png`,
+  "logo": SITE_CONFIG.ogImage,
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": SITE_CONFIG.contact.phone,
