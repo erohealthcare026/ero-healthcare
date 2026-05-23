@@ -3,8 +3,8 @@ export const SITE_CONFIG = {
     fullName: "ERO Healthcare Innovation Private Limited",
     title: "ERO Healthcare Innovation Private Limited",
     description: "Leading healthcare innovation institute providing expert Medical Coding, Medical Billing, and Professional Certification Courses.",
-    url: "https://erohealthcare.com",
-    ogImage: "https://erohealthcare.com/og-image.jpg",
+    url: "https://erohealthcareinnovation.com",
+    ogImage: "https://erohealthcareinnovation.com/_next/static/media/app-logo.0ybafrv~q1tkh.jpeg",
     keywords: ["medical coding training", "medical billing", "healthcare innovation", "ERO healthcare", "erohealthcare", "erohealthcareinnovation", "certification courses"],
     author: "ERO Healthcare",
     links: {

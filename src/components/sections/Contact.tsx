@@ -34,11 +34,14 @@ export function Contact() {
     };
 
     try {
-      const response = await fetch("https://medical-coding-send-mail.onrender.com/api/send-mail", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        "https://medical-coding-send-mail.onrender.com/api/send-mail",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        },
+      );
 
       if (response.ok) {
         setStatus("success");
@@ -63,7 +66,7 @@ export function Contact() {
             <div className="bg-white rounded-[2rem] shadow-[0_20px_60px_rgba(9,21,43,0.08)] border border-slate-100 overflow-hidden text-center relative">
               {/* Premium Top Gradient Bar */}
               <div className="h-2 w-full bg-gradient-to-r from-primary via-emerald-400 to-secondary" />
-              
+
               <div className="p-12 md:p-16 space-y-8">
                 {/* Icon Container with multi-layered glow */}
                 <div className="relative mx-auto size-24">
@@ -79,7 +82,12 @@ export function Contact() {
                   </h2>
                   <div className="h-1 w-12 bg-primary mx-auto rounded-full" />
                   <p className="text-base text-slate-500 font-medium leading-relaxed max-w-sm mx-auto pt-2">
-                    Thank you for reaching out to <span className="font-bold text-slate-800">ERO Healthcare</span>. An admissions counselor will review your submission and contact you shortly.
+                    Thank you for reaching out to{" "}
+                    <span className="font-bold text-slate-800">
+                      ERO Healthcare
+                    </span>
+                    . An admissions counselor will review your submission and
+                    contact you shortly.
                   </p>
                 </div>
 
@@ -222,7 +230,7 @@ export function Contact() {
 
               {/* Card 4: Campus Headquarters */}
               <a
-                href="https://maps.google.com/?q=11.3541746,77.7074001"
+                href="https://maps.google.com/?q=11.3542459,77.7088812"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/item relative flex items-center justify-between p-5 bg-white rounded-2xl shadow-[0_2px_10px_rgba(0,0,0,0.02)] hover:shadow-[0_15px_40px_rgba(9,21,43,0.08)] hover:-translate-y-1 transition-all duration-300 outline-none cursor-pointer overflow-hidden border border-slate-100"
