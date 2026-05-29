@@ -37,7 +37,7 @@ export const SPECIALTIES = [
     description:
       "Pathology is the branch of medicine that studies diseases by examining tissues, organs, blood, and other body fluids. Pathologists work behind the scenes in laboratories to identify the causes and effects of diseases, helping doctors make accurate diagnoses and treatment decisions. Their work is essential in detecting infections, cancers, genetic disorders, and many other medical conditions.Pathologists use laboratory tests, microscopic analysis, and advanced diagnostic techniques to evaluate patient samples. They also contribute to medical research, disease prevention, and the development of new treatments. Although patients may not interact directly with pathologists, their expertise is critical to the healthcare system because nearly every medical diagnosis relies on laboratory and pathology findings.",
     image:
-      "https://www.columbiacancerhospital.com/wp-content/uploads/2025/01/Pathology.jpg",
+      "https://t3.ftcdn.net/jpg/02/66/43/86/360_F_266438665_Zpdq3QG6gpTt6ovTFSEortv7S7IMooSE.jpg",
   },
   {
     id: "other-specialties",
